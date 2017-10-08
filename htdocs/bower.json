@@ -1,0 +1,17 @@
+{
+  "name": "Default App",
+  "homepage": "https://github.com/greevex/mpcmf-new-app",
+  "authors": [
+    "Gregory Ostrovsky <greevex@gmail.com>"
+  ],
+  "description": "Mpcmf default app bower config",
+  "main": "",
+  "license": "private",
+  "private": true,
+  "dependencies": {
+    "chosen": "^1.8.2",
+    "eonasdan-bootstrap-datetimepicker": "^4.17.47",
+    "metisMenu": "^2.7.0",
+    "startbootstrap-sb-admin-2": "startbootstrap-sb-admin#^3.3.7+1"
+  }
+}

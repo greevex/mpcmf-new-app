@@ -1,0 +1,13 @@
+.userview-list .item a:link {
+    color: #43a5ee;
+}
+.userview-list .item a:hover {
+    text-decoration: underline;
+}
+.panel-borderless {
+    border: 0;
+    box-shadow: none;
+}
+.no-padding {
+    padding: 0;
+}

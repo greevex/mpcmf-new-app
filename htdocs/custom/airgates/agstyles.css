@@ -1,0 +1,42 @@
+body {
+    background-color: #ffffff;
+    display: block;
+    position: relative;
+    font: 14px/80% Arial,Helvetica,sans-serif !important;
+}
+
+.navbar-static-top {
+    height: 50px;
+    background: #bcbcbc;
+}
+
+#scroller{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    display:none;
+    z-index: 999;
+}
+
+#page-wrapper{
+    padding-top: 25px;
+    border-left: 0;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.sds-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #ffebcd;
+}
+
+
+/* profile + create */
+section.trip-create {
+    padding: 20px 0;
+}

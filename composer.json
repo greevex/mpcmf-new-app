@@ -1,0 +1,24 @@
+{
+    "name": "greevex/mpcmf-new-app",
+    "license": "MIT",
+    "type": "project",
+    "version": "2.0.0",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Gregory Ostrovsky",
+            "email": "greevex@gmail.com"
+        }
+    ],
+    "require": {
+        "mpcmf/mpcmf-core": "dev-master",
+        "mpcmf/mpcmf-console": "dev-master",
+        "mpcmf/mpcmf-web": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "mpcmf\\apps\\": "src/apps/"
+        }
+    }
+}
